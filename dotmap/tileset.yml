@@ -1,0 +1,31 @@
+
+-
+    index: 0
+    name: floor
+    sprite:
+        char: "."
+        background: green
+        foreground: white
+    data:
+        passable: yes
+
+- 
+    index: 1
+    name: wall
+    sprite:
+        char: "#"
+        background: white
+        foreground: black
+    data:
+        passable: no
+
+-
+    index: 2
+    name: water
+    sprite:
+        char: "~"
+        background: blue
+        foreground: white
+    data:
+        passable: no
+
